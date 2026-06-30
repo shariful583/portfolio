@@ -14,9 +14,6 @@ export default function Footer() {
           <a href={profile.socials.linkedin} className="hover:underline">
             LinkedIn
           </a>
-          <a href={profile.socials.twitter} className="hover:underline">
-            Twitter
-          </a>
         </div>
       </div>
     </footer>

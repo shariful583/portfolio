@@ -3,12 +3,11 @@ export const profile = {
   role: "Software Developer",
   tagline: "I build clean, reliable web applications.",
   bio: "I'm a software developer who enjoys turning ideas into fast, maintainable products. I care about readable code, good UX, and shipping things that work.",
-  email: "your.email@example.com",
+  email: "contact@sharifulislam.dev",
   location: "Bangladesh",
   socials: {
     github: "https://github.com/shariful583",
     linkedin: "https://www.linkedin.com/in/shariful-islam-242802180/",
-    twitter: "https://twitter.com/your-username",
   },
 };
 
