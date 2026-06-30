@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { profile } from "@/data/portfolio";
+import ThemeToggle from "./ThemeToggle";
 
 const links = [
   { href: "/", label: "Home" },
@@ -20,6 +21,7 @@ export default function Nav() {
         <Link href="/" className="font-semibold">
           {profile.name}
         </Link>
+        <div className="flex items-center gap-6">
         <ul className="flex gap-6 text-sm text-zinc-600 dark:text-zinc-400">
           {links.map((link) => {
             const isActive =
@@ -42,6 +44,8 @@ export default function Nav() {
             );
           })}
         </ul>
+        <ThemeToggle />
+        </div>
       </nav>
     </header>
   );

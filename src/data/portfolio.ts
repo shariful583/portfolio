@@ -6,8 +6,8 @@ export const profile = {
   email: "your.email@example.com",
   location: "Bangladesh",
   socials: {
-    github: "https://github.com/your-username",
-    linkedin: "https://linkedin.com/in/your-username",
+    github: "https://github.com/shariful583",
+    linkedin: "https://www.linkedin.com/in/shariful-islam-242802180/",
     twitter: "https://twitter.com/your-username",
   },
 };
