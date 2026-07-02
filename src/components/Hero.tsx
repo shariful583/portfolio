@@ -3,7 +3,7 @@ import { profile } from "@/data/portfolio";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col gap-4 py-20">
+    <section className="flex flex-col gap-4 py-14 sm:py-20">
       <p className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
         Hi, I&apos;m
       </p>
@@ -13,12 +13,12 @@ export default function Hero() {
       <p className="text-xl text-zinc-600 dark:text-zinc-400">
         {profile.role} — {profile.tagline}
       </p>
-      <div className="mt-4 flex gap-3">
+      <div className="mt-4 flex flex-wrap gap-3">
         <Link
-          href="/projects"
+          href="/about"
           className="rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-zinc-700 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-300"
         >
-          View Projects
+          About Me
         </Link>
         <Link
           href="/contact"

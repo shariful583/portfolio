@@ -2,8 +2,8 @@ export const profile = {
   name: "Shariful Islam",
   role: "Software Developer",
   tagline: "I build clean, reliable web applications.",
-  bio: "I'm a software developer who enjoys turning ideas into fast, maintainable products. I care about readable code, good UX, and shipping things that work.",
-  email: "your.email@example.com",
+  bio: "I'm a backend-focused software engineer with 5 years of experience building fast, reliable systems. I care deeply about clean, maintainable code and designing services that scale and hold up in production.",
+  email: "me@sharifulisalm.dev",
   location: "Bangladesh",
   socials: {
     github: "https://github.com/shariful583",
@@ -12,15 +12,19 @@ export const profile = {
   },
 };
 
-export const skills = [
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Tailwind CSS",
-  "Git",
-  "SQL",
+export type SkillGroup = {
+  category: string;
+  items: string[];
+};
+
+export const skills: SkillGroup[] = [
+  { category: "Languages", items: ["JavaScript", "TypeScript", "Python", "Go"] },
+  { category: "Backend", items: ["Node.js"] },
+  { category: "Frontend", items: ["React", "Next.js", "Angular"] },
+  { category: "Databases", items: ["MySQL", "PostgreSQL", "Redis"] },
+  { category: "Messaging", items: ["Kafka", "RabbitMQ"] },
+  { category: "Cloud", items: ["AWS", "Google Cloud"] },
+  { category: "Tools", items: ["Git"] },
 ];
 
 export type Project = {

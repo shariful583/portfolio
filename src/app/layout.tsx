@@ -39,7 +39,7 @@ export default function RootLayout({
         <ThemeProvider>
           <div className="flex flex-1 flex-col">
             <Nav />
-            <main className="mx-auto w-full max-w-3xl flex-1 px-6">
+            <main className="mx-auto w-full max-w-3xl flex-1 px-4 sm:px-6">
               {children}
             </main>
             <Footer />
