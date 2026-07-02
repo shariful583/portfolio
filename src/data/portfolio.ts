@@ -8,7 +8,6 @@ export const profile = {
   socials: {
     github: "https://github.com/shariful583",
     linkedin: "https://www.linkedin.com/in/shariful-islam-242802180/",
-    twitter: "https://twitter.com/your-username",
   },
 };
 
